@@ -5,7 +5,7 @@ import androidx.room.Entity;
 import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = "gra_planszowa")
+@Entity(tableName = "gra_planszowa") // robimy encję bazy danych, adnotację
 public class Gra_planszowa {
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "ID")
